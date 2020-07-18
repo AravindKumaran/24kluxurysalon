@@ -20,6 +20,7 @@
 18. Blog & Post style
 19. Contact style
 20. Footer style
+21. 24k custom
 ------------------------------------------------------------------- */
 
 
@@ -733,7 +734,7 @@ input[type="checkbox"] {
     color: #000;
 }
 .betty-contact-info2 h6 {
-    color: #666;
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0px;
@@ -2030,6 +2031,7 @@ ol.comment-list li .children li {
     color: #fff;
 }
 #message {
+    background:#fff;
     font-family: 'Rambla', sans-serif;
     height: 150px;
     padding: 12px;
@@ -2149,5 +2151,18 @@ ol.comment-list li .children li {
 #betty-footer2 .betty-footer ul li a:focus {
     text-decoration: none;
     outline: none;
+    color: #fff;
+}
+
+/* ======= 24k custom  ======= */
+
+.servicePageCustom p {
+    color: #fff;
+}
+.servicePageCustom li a{
+    color: #e9ecef;
+}
+
+.aboutCustom p {
     color: #fff;
 }
